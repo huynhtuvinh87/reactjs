@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+a {
+  cursor: pointer;
+  color: #007bff;
+}
+ul {
+  list-style: none;
+}
+.content {
+  margin: 20px;
+}
+.pagination a {
+  cursor: pointer;
+}
+.break-me {
+  padding: 20px 10px 10px;
+}
+.break-me a {
+  vertical-align: bottom;
+}
+.modal-full {
+  max-width: 100% !important;
+  margin: 5px !important;
+  height: 98%;
+}
+.modal-full .modal-content {
+  height: 100%;
+}
+.avatar {
+  width: 40px;
+}
+.table-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.table-list ul li a.update,
+.table-list ul li a.delete {
+  float: right;
+  margin-top: 10px;
+}
+
+.item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.delete{
+  margin-left: 5px;
+}
+.hide .sub{
+  display: none;
+}
+.show .sub{
+  display: block;
+}
+.group_01 .sub{
+  display: block;
+}
